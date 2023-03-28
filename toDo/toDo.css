@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5% 0;
+}
+
+ul{
+    list-style: none;
+    margin: 40px 0;
+    background: rgba(79, 110, 248, 0.981);
+    color: white;
+    width: 50%;
+    min-height: 200px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.close-out{
+    background-color: rgb(138, 99, 246);
+    border: 1px white solid;
+    border-radius: 3px;
+    color: white;
+    width: 30px;
+    height: 25px;
+    padding: 0 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 15px;
+    display: inline;
+}
+
+.checkbox{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#input{
+    width: 220px;
+    height: 28px;
+    background: rgba(4, 0, 255, 0.211);
+    border: white;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+#submit-btn, #checkAll-btn{
+    width: 70px;
+    height: 28px;
+    background: rgba(21, 0, 255, 0.707);
+    border: white;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#checkAll-btn{
+    width: 130px;
+}
